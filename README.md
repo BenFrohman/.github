@@ -20,7 +20,7 @@ limitations under the License.
 
 Public defaults for [BenFrohman](https://github.com/BenFrohman) repositories.
 
-`FUNDING.yml` (here and in `.github/FUNDING.yml`) is the account-wide sponsor configuration. GitHub shows a **Sponsor** button on public repositories that do not override it.
+`.github/FUNDING.yml` is the account-wide sponsor configuration. GitHub reads that file before a `FUNDING.yml` in the repository root. There is no root copy. A repository's own `.github/FUNDING.yml` overrides this default.
 
 - GitHub Sponsors: https://github.com/sponsors/BenFrohman
-- Join GitHub Sponsors: https://github.com/sponsors
+- Ko-fi: https://ko-fi.com/benfrohman
